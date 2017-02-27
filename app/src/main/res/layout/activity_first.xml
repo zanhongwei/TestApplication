@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_first"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="contant.zhw.zxzq.com.testapplication.activitytest.FirstActivity">
+    <Button
+        android:id="@+id/test1_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button1"/>
+    <Button
+        android:id="@+id/destroy_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="destroy"/>
+    <Button
+        android:id="@+id/test_intent_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button3"/>
+    <EditText
+        android:id="@+id/et_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="this is hint"
+        android:maxLines="1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_btn"
+        android:text="button4"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
